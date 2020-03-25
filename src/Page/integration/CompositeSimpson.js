@@ -81,15 +81,15 @@ class CompositeSimpson extends Component {
                             onChange={this.handleChange}
                         >
                             <div>
-                                <h>f(x)</h> <Input size="large" name="fx"></Input>
-                                <h>Lower Bound(A)</h> <Input size="large" name="a" ></Input>
-                                <h>Upper Bound(B)</h> <Input size="large" name="b" ></Input>
-                                <h>N</h> <Input size="large" name="n" ></Input>
+                                <h2>f(x)</h2> <Input size="large" name="fx"></Input>
+                                <h2>Lower Bound(A)</h2> <Input size="large" name="a" ></Input>
+                                <h2>Upper Bound(B)</h2> <Input size="large" name="b" ></Input>
+                                <h2>N</h2> <Input size="large" name="n" ></Input>
                             </div>
                             <br />
                             <Button
                                 id="submit_button"
-                                style={{ background: "#4dea6f", color: "green" }}
+                                style={{ background: "#4caf50", color: "white" }}
                                 onClick={() =>
                                     this.composite_simpson(
                                         parseFloat(this.state.a),
@@ -111,12 +111,12 @@ class CompositeSimpson extends Component {
                             onChange={this.handleChange}
                         >
                             <div>
-                                <h>Number</h> <Input size="large" name="number"></Input>
+                                <h2>Choice</h2> <Input size="large" name="number"></Input>
                             </div>
                             <br />
                             <Button
                                 id="submit_button"
-                                style={{ background: "#4dea6f", color: "green" }}
+                                style={{ background: "#4caf50", color: "white" }}
                                 onClick={() =>
                                     this.datas(
                                         parseFloat(this.state.number),

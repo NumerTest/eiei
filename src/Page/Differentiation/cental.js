@@ -83,15 +83,15 @@ class cental extends Component {
                         onChange={this.handleChange}
                     >
                         <div>
-                            <h>f(x)</h> <Input size="large" name="fx"></Input>
-                            <h>Diff</h> <Input size="large" name="degree" ></Input>
-                            <h>X</h> <Input size="large" name="x" ></Input>
-                            <h>H</h> <Input size="large" name="h" ></Input>
+                            <h2>f(x)</h2> <Input size="large" name="fx"></Input>
+                            <h2>Diff</h2> <Input size="large" name="degree" ></Input>
+                            <h2>X</h2> <Input size="large" name="x" ></Input>
+                            <h2>H</h2> <Input size="large" name="h" ></Input>
                         </div>
                         <br />
                         <Button
                             id="submit_button"
-                            style={{ background: "#4dea6f", color: "green" }}
+                            style={{ background: "#4caf50", color: "white" }}
                             onClick={() =>
                                 this.centralh(
                                     parseFloat(this.state.degree),
@@ -113,12 +113,12 @@ class cental extends Component {
                         onChange={this.handleChange}
                     >
                         <div>
-                            <h>Number</h> <Input size="large" name="number"></Input>
+                            <h2>Choice</h2> <Input size="large" name="number"></Input>
                         </div>
                         <br />
                         <Button
                             id="submit_button"
-                            style={{ background: "#4dea6f", color: "green" }}
+                            style={{ background: "#4caf50", color: "white" }}
                             onClick={() =>
                                 this.datas(
                                     parseFloat(this.state.number),

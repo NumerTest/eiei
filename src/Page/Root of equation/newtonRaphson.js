@@ -131,7 +131,7 @@ class newtonRaphson extends Component {
               <br />
               <Button
                 id="submit_button"
-                style={{ background: "#4dea6f", color: "green" }}
+                style={{ background: "#4caf50", color: "white" }}
                 onClick={() => this.newton_raphson(parseFloat(this.state.x0))}
               >
                 Submit
@@ -147,13 +147,13 @@ class newtonRaphson extends Component {
               onChange={this.handleChange}
             >
               <div>
-                <h2>Number</h2>
+                <h2>Choice</h2>
                 <Input size="large" name="number"></Input>
               </div>
               <br />
               <Button
                 id="submit_button"
-                style={{ background: "#4dea6f", color: "green" }}
+                style={{ background: "#4caf50", color: "white" }}
                 onClick={() => this.data(parseFloat(this.state.number))}
               >
                 Submit

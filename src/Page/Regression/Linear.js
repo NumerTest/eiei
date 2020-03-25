@@ -196,7 +196,7 @@ class Linear extends Component {
                   parseInt(this.state.m)
                 )
               }
-              style={{ background: "#4dea6f", color: "green" }}
+              style={{ background: "#4caf50", color: "white" }}
             >
               Submit<br></br>
             </Button>

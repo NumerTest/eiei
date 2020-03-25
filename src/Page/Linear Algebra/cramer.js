@@ -124,11 +124,7 @@ handleChange(event) {
                 <Button id="dimention_button" onClick={
                     () => this.createMatrix(this.state.row, this.state.column)
                 }
-                    style={{
-                        background: "#4dea6f",
-                        color: "green",
-                        fontSize: "18px"
-                    }}
+                style={{ background: "#4caf50", color: "white" }}
                 >
                     Submit
                     <br />

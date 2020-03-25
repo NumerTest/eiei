@@ -133,20 +133,20 @@ class secant extends Component {
               onChange={this.handleChange}
             >
               <div>
-                <h>f(x)</h> <Input size="large" name="fx"></Input>
-                <h>
+                <h2>f(x)</h2> <Input size="large" name="fx"></Input>
+                <h2>
                   X<sub>0</sub>
-                </h>{" "}
+                </h2>{" "}
                 <Input size="large" name="x0"></Input>
-                <h>
+                <h2>
                   X<sub>1</sub>
-                </h>{" "}
+                </h2>{" "}
                 <Input size="large" name="x1"></Input>
               </div>
               <br />
               <Button
                 id="submit_button"
-                style={{ background: "#4dea6f", color: "green" }}
+                style={{ background: "#4caf50", color: "white" }}
                 onClick={() =>
                   this.secant(
                     parseFloat(this.state.x0),
@@ -167,12 +167,12 @@ class secant extends Component {
               onChange={this.handleChange}
             >
               <div>
-                <h>Number</h> <Input size="large" name="number"></Input>
+                <h2>Choice</h2> <Input size="large" name="number"></Input>
               </div>
               <br />
               <Button
                 id="submit_button"
-                style={{ background: "#4dea6f", color: "green" }}
+                style={{ background: "#4caf50", color: "white" }}
                 onClick={() => this.datas(parseFloat(this.state.number))}
               >
                 submit
