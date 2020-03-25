@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5e7a498dbfa2794d6c7a4f60"},"fx":"2-(1/e^(-x/4))","x0":{"$numberInt":"2"},"__v":{"$numberInt":"0"}}
